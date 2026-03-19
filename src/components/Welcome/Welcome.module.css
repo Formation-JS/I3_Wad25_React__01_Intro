@@ -1,0 +1,23 @@
+/* Régle pour le CSS Module :
+   - Le nom fichier DOIT avoir extension '.module.css'
+   - Les selecteurs CSS DOIVENT contenir au moins un nom de classe
+   - Il faut importé le fichier via « import ... from "fichier.module.css" »
+*/
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    margin: 0 auto;
+
+    border: 0.5ch dotted hotpink;
+    border-radius: 1em;
+    background-color: #7B1B38;
+    color: snow;
+    padding: 0.5em 1em;
+}
+
+.id-room {
+    color: cyan;
+    font-weight: bold;
+}

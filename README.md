@@ -1,5 +1,18 @@
 # Demo React - WAD25
 
+## Les commandes utile durant le dev
+Création d'un nouveau projet 
+```
+npm create vite@latest
+→ Selectionner "react"
+→ Template : JavaScript + React compiler
+```
+
+Lancer l'application en mode `Dev`
+```
+npm run dev
+```
+
 ## Les composants
 C'est une fonction
 - Elle renvoi du JSX
