@@ -1,0 +1,20 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.product {
+    border: solid deeppink 0.1ch;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.product > p:first-child {
+    font-weight: bold;
+    color: deeppink;
+}
+
+.promo {
+    color: crimson;
+}
