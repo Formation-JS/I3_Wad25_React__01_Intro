@@ -18,6 +18,9 @@ function App() {
 
       <h2>Demo collection</h2>
       <PokemonTable pokemons={pokemons} />
+
+      <h2>Exercice 02</h2>
+      
     </>
   )
 }

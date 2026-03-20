@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Stylo bille bleu",
+    "description": "Un stylo bille à encre bleue, idéal pour une écriture fluide.",
+    "price": 1.20,
+    "promo": false
+  },
+  {
+    "id": 2,
+    "name": "Bloc-notes A5",
+    "description": "Bloc-notes format A5 avec 100 pages lignées.",
+    "price": 3.50,
+    "promo": true
+  },
+  {
+    "id": 3,
+    "name": "Classeur à levier",
+    "description": null,
+    "price": 2.90,
+    "promo": false
+  },
+  {
+    "id": 4,
+    "name": "Agrafeuse métallique",
+    "description": "Agrafeuse robuste pouvant agrafer jusqu'à 20 feuilles.",
+    "price": 7.80,
+    "promo": false
+  },
+  {
+    "id": 5,
+    "name": "Boîte de trombones",
+    "description": null,
+    "price": 1.00,
+    "promo": true
+  },
+  {
+    "id": 6,
+    "name": "Surligneur jaune",
+    "description": "Surligneur fluorescent pour mettre en évidence vos notes.",
+    "price": 0.90,
+    "promo": false
+  },
+  {
+    "id": 7,
+    "name": "Ruban adhésif transparent",
+    "description": null,
+    "price": 1.30,
+    "promo": false
+  },
+  {
+    "id": 8,
+    "name": "Pochette plastique A4",
+    "description": "Pochette perforée transparente pour documents.",
+    "price": 0.25,
+    "promo": false
+  },
+  {
+    "id": 9,
+    "name": "Organisateur de bureau",
+    "description": "Organisateur multifonction pour stylos, notes et accessoires.",
+    "price": 9.90,
+    "promo": true
+  },
+  {
+    "id": 10,
+    "name": "Peluche Evoli",
+    "description": "Une peluche douce et mignonne du Pokémon Evoli.",
+    "price": 22.99,
+    "promo": true
+  }
+]

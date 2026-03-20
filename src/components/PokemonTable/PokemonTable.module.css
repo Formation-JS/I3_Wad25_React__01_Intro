@@ -1,5 +1,9 @@
 .poke-table {
     border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto;
+
+    border: 0.2ch solid darkmagenta;
 }
 
 .poke-table > thead {
@@ -32,9 +36,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
+    .poke-table { 
+        border-color: snow;
+    }
     .poke-table > thead {
         background-color: snow;
         color: darkmagenta;
     }
-
 }
