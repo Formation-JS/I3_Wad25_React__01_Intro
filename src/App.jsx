@@ -1,6 +1,8 @@
 import './App.css'
 import Exo01 from './components/Exo/Exo01'
+import PokemonTable from './components/PokemonTable/PokemonTable'
 import Welcome from './components/Welcome/Welcome'
+import pokemons from './data/pokemons.json'
 
 function App() {
 
@@ -13,6 +15,9 @@ function App() {
       <Exo01 value={42} />
       <Exo01 value={0} />
       <Exo01 value={13} />
+
+      <h2>Demo collection</h2>
+      <PokemonTable pokemons={pokemons} />
     </>
   )
 }

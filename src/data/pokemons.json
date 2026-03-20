@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbizarre",
+    "types": ["Plante", "Poison"],
+    "main_color": "#78C850",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  {
+    "id": 6,
+    "name": "Dracaufeu",
+    "types": ["Feu", "Vol"],
+    "main_color": "#F08030",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": ["Électrik"],
+    "main_color": "#F8D030",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  },
+  {
+    "id": 131,
+    "name": "Lokhlass",
+    "types": ["Eau", "Glace"],
+    "main_color": "#6890F0",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+  },
+  {
+    "id": 197,
+    "name": "Noctali",
+    "types": ["Ténèbres"],
+    "main_color": "#705848",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+  },
+  {
+    "id": 254,
+    "name": "Jungko",
+    "types": ["Plante"],
+    "main_color": "#4E8234",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
+  },
+  {
+    "id": 392,
+    "name": "Simiabraz",
+    "types": ["Feu", "Combat"],
+    "main_color": "#F08030",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png"
+  },
+  {
+    "id": 448,
+    "name": "Lucario",
+    "types": ["Combat", "Acier"],
+    "main_color": "#3D4E8A",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+  },
+  {
+    "id": 658,
+    "name": "Amphinobi",
+    "types": ["Eau", "Ténèbres"],
+    "main_color": "#4E6AFF",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+  },
+  {
+    "id": 909,
+    "name": "Chochodile",
+    "types": ["Feu"],
+    "main_color": "#F08030",
+    "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png"
+  }
+]
