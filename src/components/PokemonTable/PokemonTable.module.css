@@ -1,0 +1,40 @@
+.poke-table {
+    border-collapse: collapse;
+}
+
+.poke-table > thead {
+    background-color: darkmagenta;
+    color: snow;
+}
+
+.poke-table > tbody > tr {
+    background-color: snow;
+}
+.poke-table > tbody > tr:nth-child(odd) {
+    background-color: lightpink;
+}
+.poke-table > tbody > tr > td {
+    height: 4em;
+}
+
+.poke-img {
+    object-fit: fill;
+    height: 100%;
+}
+
+.poke-id {
+    text-shadow: 
+    0.1ch -0.1ch 0 black,
+    -0.1ch -0.1ch 0 black,
+    -0.1ch 0.1ch 0 black,
+    0.1ch 0.1ch 0 black;
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+    .poke-table > thead {
+        background-color: snow;
+        color: darkmagenta;
+    }
+
+}

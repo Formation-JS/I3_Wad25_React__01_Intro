@@ -1,8 +1,9 @@
+import style from './PokemonTable.module.css';
 
 export default function PokemonTable({ pokemons }) {
 
     return (
-        <table>
+        <table className={style['poke-table']}>
             <PokemonTableHeader />
             <tbody>
                 {pokemons.map(
@@ -29,11 +30,11 @@ function PokemonTableHeader() {
 function PokemonTableRow({ id, name, types, main_color, image_url }) {
     return (
         <tr>
-            <td>{id}</td>
+            <td className={style['poke-id']} style={{ color: main_color }}>{id}</td>
             <td>{name}</td>
             <td>{types.join(', ')}</td>
             <td>
-                <img src={image_url} alt={`Image du pokemon ${name}`} />
+                <img src={image_url} alt={`Image du pokemon ${name}`} className={style['poke-img']} />
             </td>
         </tr>
     )
