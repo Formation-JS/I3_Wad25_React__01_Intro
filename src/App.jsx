@@ -2,6 +2,7 @@ import './App.css'
 import Exo01 from './components/Exo/Exo01'
 import Exo02 from './components/Exo/Exo02'
 import Exo03 from './components/Exo/Exo03'
+import { ExoForm } from './components/Exo/ExoForm'
 import { LoginForm } from './components/Formulaires/LoginForm'
 import { RegisterForm } from './components/Formulaires/RegisterForm'
 import PokemonTable from './components/PokemonTable/PokemonTable'
@@ -30,9 +31,11 @@ function App() {
       {/* <h3>Exercice 03</h3> */}
       {/* <Exo03 /> */}
 
-      <h4>Demo Formulaires</h4>
+      {/* <h4>Demo Formulaires</h4> */}
       {/* <LoginForm /> */}
-      <RegisterForm />
+      {/* <RegisterForm /> */}
+
+      <ExoForm />
 
     </>
   )
