@@ -3,6 +3,7 @@ import Exo01 from './components/Exo/Exo01'
 import Exo02 from './components/Exo/Exo02'
 import Exo03 from './components/Exo/Exo03'
 import { LoginForm } from './components/Formulaires/LoginForm'
+import { RegisterForm } from './components/Formulaires/RegisterForm'
 import PokemonTable from './components/PokemonTable/PokemonTable'
 import Welcome from './components/Welcome/Welcome'
 import pokemons from './data/pokemons.json'
@@ -30,7 +31,8 @@ function App() {
       {/* <Exo03 /> */}
 
       <h4>Demo Formulaires</h4>
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <RegisterForm />
 
     </>
   )

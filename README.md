@@ -13,7 +13,7 @@ Lancer l'application en mode `Dev`
 npm run dev
 ```
 
-Récuperation d'une projet sur git
+Récuperation d'un projet sur git
 ```
 git clone url_projet nom_dossier
 cd nom_dossier
@@ -23,7 +23,7 @@ npm run dev
 
 ## Les composants
 C'est une fonction
-- Elle renvoi du JSX
+- Elle renvoie du JSX
 - Elle peut avoir des parametres (props)
 
 
@@ -32,3 +32,9 @@ C'est une fonction
 # Bonus
 
 [Lien pour installer la police Fira et activer les ligatures](https://rubenshibu.medium.com/set-fira-code-as-your-vs-code-font-windows-11-f5a8d96b1104)
+
+[Librairie React Hook Form](https://react-hook-form.com/)
+Pour l'installer dans le projet : 
+```
+npm i react-hook-form
+```
