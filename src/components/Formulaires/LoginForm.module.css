@@ -1,0 +1,43 @@
+.login {
+
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap : 1rem;
+
+    button {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap : 0.5rem;
+
+    input {
+        height: 1.5rem;
+        padding: 0 0.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        border : 1px solid gainsboro;
+    }
+}
+
+.success {
+    color : green;
+}
+
+.fail {
+    color : darkred;
+}

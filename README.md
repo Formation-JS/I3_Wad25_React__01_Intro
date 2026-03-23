@@ -25,3 +25,10 @@ npm run dev
 C'est une fonction
 - Elle renvoi du JSX
 - Elle peut avoir des parametres (props)
+
+
+<hr>
+
+# Bonus
+
+[Lien pour installer la police Fira et activer les ligatures](https://rubenshibu.medium.com/set-fira-code-as-your-vs-code-font-windows-11-f5a8d96b1104)
