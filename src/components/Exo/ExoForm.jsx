@@ -12,15 +12,15 @@ export const ExoForm = () => {
     });
 
     // utilisation de la hook useForm pour la gestion du formulaire
-    const { register, handleSubmit, reset, formState: { errors } } = useForm({
+    const { register, handleSubmit, reset, formState: { errors }, resetField } = useForm({
         mode: 'onChange',
-        resetOptions: { keepFieldsRef: true, keepDefaultValues: true, keepValues: false },
+        resetOptions: { keepFieldsRef: true, keepIsSubmitted: false },
         // TODO : trouver pourquoi le 2ème reset mets plus à jour visuellement
         /* 👆🏻 à priori nouveau depuis version 7.75 pour garder la ref entre nos valeurs register et notre form */
         defaultValues: {
-            amount: '',
-            tips: '',
-            nb: ''
+            amount: null,
+            tips: null,
+            nb: null
         }
     })
 
@@ -52,6 +52,11 @@ export const ExoForm = () => {
         })
 
         reset();
+
+        // ! Fix temporaire pour réinitialiser les valeurs du formulaire :
+        resetField('amount', { defaultValue : null });
+        resetField('tips', { defaultValue : null });
+        resetField('nb', { defaultValue : null });
     }
 
 
